@@ -77,13 +77,15 @@ img{
 
 .animation{
     height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: space-evenly;
    
 }
 .animation img{
-    border-radius: 2%; 
+    border-radius: 2%;
+    
+    width: 40vw;
+    object-fit: contain; 
 }
 video{
     height: 70vh;
@@ -125,9 +127,13 @@ video{
     .video{
         display: none;
     }
-    .animation img{
-        width:20vw;
-        max-width: 20vw;
-        
+    .animation{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    .animation img{
+        width: 80px;
+    }
+   
 }
