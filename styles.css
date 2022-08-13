@@ -117,7 +117,7 @@ video{
   }
     .left{
         width: 100vw;
-        text-overflow: clip;
+        text-overflow: ellipsis;
     }
     #dropdown{
         width: 20vw;
