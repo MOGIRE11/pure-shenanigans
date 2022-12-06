@@ -144,3 +144,14 @@ video{
     }
    
 }
+
+input:invalid{
+    animation: shake 4s;
+}
+@keyframes shake
+{
+    0%{transform:translateX(1.2rem)}
+    50%{transform:translateX(-1.2rem)}
+    100%{transform:translateX(0)}
+}
+/*CREATING WORKING FORMS FOR THE PAGE*/
